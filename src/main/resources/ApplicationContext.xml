@@ -7,11 +7,11 @@
                         http://www.springframework.org/schema/aop
                         http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <bean id="exeAspect" class="org.example.ExeAspect" autowire="byType">
+    <bean id="Execute" class="org.example.Execute" autowire="byType">
 
     </bean>
     <aop:aspectj-autoproxy />
-    <bean id="difAspect" class="org.example.DifAspect" autowire="byType">
+    <bean id="AspectJ" class="org.example.AspectJ" autowire="byType">
 
     </bean>
 </beans>
